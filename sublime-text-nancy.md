@@ -67,17 +67,17 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 * `Ctrl + K + B` 开启/关闭侧边栏
 <br /><br />
 
-安装插件：
-①. AdvancedNewFile     —— 快捷键`Ctrl + Alt + N`新建并保持文件
-②. SyncedSideBar   ——当编辑某个文件时，对应在左边栏高亮该文件，快捷键`Ctrl + K+ B`显示左边栏
-③. MarkdownHighlighting   ——markdown语法高亮
-④. Markdown HTML Preview   ——快捷键`Ctrl + Shift + M`浏览器浏览md文件
-⑤. LESS
-⑥. All Autocomplete   ——代码提示，快捷键`Tab`自动补全
-⑦. HTML-CSS-JS Prettify   ——格式化代码，快捷键`Ctrl + Shift + H`
-⑧. SideBarEnhancements   ——自定义打开方式快捷键，定义不同的快捷键打开不同的浏览器
-⑨. SublimeLinter   ——语法检测，提示用户编写的代码存在不规范和错误的写法
-⑩. Jshint   ——运行命令：`jshit --verbose a.js`，查找对应编号代码，当js文件使用`use strict`格式时忽略警告或报错，`/* jshint -w0136 */`
+安装插件：<br />
+①. AdvancedNewFile     —— 快捷键`Ctrl + Alt + N`新建并保持文件<br />
+②. SyncedSideBar   ——当编辑某个文件时，对应在左边栏高亮该文件，快捷键`Ctrl + K+ B`显示左边栏<br />
+③. MarkdownHighlighting   ——markdown语法高亮<br />
+④. Markdown HTML Preview   ——快捷键`Ctrl + Shift + M`浏览器浏览md文件<br />
+⑤. LESS<br />
+⑥. All Autocomplete   ——代码提示，快捷键`Tab`自动补全<br />
+⑦. HTML-CSS-JS Prettify   ——格式化代码，快捷键`Ctrl + Shift + H<br />`
+⑧. SideBarEnhancements   ——自定义打开方式快捷键，定义不同的快捷键打开不同的浏览器<br />
+⑨. SublimeLinter   ——语法检测，提示用户编写的代码存在不规范和错误的写法<br />
+⑩. Jshint   ——运行命令：`jshit --verbose a.js`，查找对应编号代码，当js文件使用`use strict`格式时忽略警告或报错，`/* jshint -w0136 */`<br />
 
 <br />
 常见设置：
