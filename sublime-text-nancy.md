@@ -1,14 +1,21 @@
 ####Sublime Text 基本使用
+
 ---
 由于Sublime Text支持大量插件，需要安装Package Control来进行浏览、安装和卸载这些插件，步骤为：`` Ctrl + ` ``打开控制台，黏贴下面的代码到控制台里：
+
 ``` 
 import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
 ```
 1. 当Package Control安装后，可以通过 `Ctrl + Shift + p` 查看默认配置文件，输入`Settings - Syntax Specific `
+
  
+
 2.  通过`Ctrl + Shift + p`查看默认配置的快捷键 ，输入`Key Bindings `，可缩写成`kb`
 
+
+
 3.  Sublime Text 快捷键
+
 
 * `Ctrl + Shift + P` 打开命令面板
 * `Ctrl + P` 搜索项目文件
@@ -60,11 +67,42 @@ import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d
 * `Ctrl + K + B` 开启/关闭侧边栏
 <br /><br />
 
+安装插件：
+①. AdvancedNewFile     —— 快捷键`Ctrl + Alt + N`新建并保持文件
+②. SyncedSideBar   ——当编辑某个文件时，对应在左边栏高亮该文件，快捷键`Ctrl + K+ B`显示左边栏
+③. MarkdownHighlighting   ——markdown语法高亮
+④. Markdown HTML Preview   ——快捷键`Ctrl + Shift + M`浏览器浏览md文件
+⑤. LESS
+⑥. All Autocomplete   ——代码提示，快捷键`Tab`自动补全
+⑦. HTML-CSS-JS Prettify   ——格式化代码，快捷键`Ctrl + Shift + H`
+⑧. SideBarEnhancements   ——自定义打开方式快捷键，定义不同的快捷键打开不同的浏览器
+⑨. SublimeLinter   ——语法检测，提示用户编写的代码存在不规范和错误的写法
+⑩. Jshint   ——运行命令：`jshit --verbose a.js`，查找对应编号代码，当js文件使用`use strict`格式时忽略警告或报错，`/* jshint -w0136 */`
+
+<br />
+常见设置：
+
+1. Sublime Text 3： How to change font size on Sidebar?
+You will need to edit the  `Default.sublime-theme` file to do this,not your preferences.Unfortunately,in Sublime Text 3 this file is contained in a zipped.`.sublime-package` file.so you'll need to extract that first.Install the `PackageResourceViewer` plugin via Package Control,then hit `Ctrl + Shift +P`(`⌘ +Shift +P` on OS X) and type `prv` to bring up the PackageResourceViewer options.Select `Open Resource`,scroll down to `Theme - Default`,hit `Enter`,scroll down to `Default.sublime-theme`,and hit `Enter` again to open it.
+Next,search for `sidebar_label` and modifu the first one(on line 362)to look like this(it needs to be valid JSON):
+
+```
+{
+        "class": "sidebar_label",
+        "color": [200, 200, 200],   //[125, 125, 125]
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, -1],
+        "font.bold": false,
+        "font.italic": false,
+        "font.size": 16 // <-- new line
+    }
+```
+If you want to do this in Sublime Text 2 ,it's a bit easier,as nothing is zipped up,Select `Preferences -> Browse Packgages...` to open up your `Packages` folder in your operating system's file navigator.Enter the `Theme - Default` subdirectory and open `Default.sublime-theme` as a JSON file,then edit it as above.
+来源：[http://stackoverflow.com/questions/24029820/sublime-3-how-to-change-font-size-on-sidebar-ubuntu-version](http://stackoverflow.com/questions/24029820/sublime-3-how-to-change-font-size-on-sidebar-ubuntu-version)
 
 
-####GitHub 与 Git指令
----
-1.  创建账号，登录GitHub网站 [https://github.com/](https://github.com/)
+<br /><br />
+
 
 
 
