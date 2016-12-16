@@ -6,7 +6,9 @@
 JsFormat是JavaScript格式插件，使用[jsbeautifier](https://github.com/beautify-web/js-beautify)格式化整个JS或JSON文件或选定的部分。
 ####特征
 - JavaScript/JSON格式（很明显）
-- 所有设置都可自定义（空白，格式化的风格等）<br>
+- 所有设置都可自定义（空白，格式化的风格等）
+
+<br>
 ####安装
 1. 下载插件包：[https://github.com/jdc0589/JsFormat](https://github.com/jdc0589/JsFormat)
 2. 点击菜单： `Preferences->Browse Packages`，把安装包解压到这里
