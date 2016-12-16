@@ -1,12 +1,12 @@
 ##JsFormat
-版本：2016.04.18.17.34.05
-首页：[github.com](https://github.com/jdc0589/JsFormat)
-问题：[github.com](https://github.com/jdc0589/JsFormat/issues)
+版本：2016.04.18.17.34.05<br>
+首页：[github.com](https://github.com/jdc0589/JsFormat)<br>
+问题：[github.com](https://github.com/jdc0589/JsFormat/issues)<br>
 ####关于
 JsFormat是JavaScript格式插件，使用[jsbeautifier](https://github.com/beautify-web/js-beautify)格式化整个JS或JSON文件或选定的部分。
 ####特征
 - JavaScript/JSON格式（很明显）
-- 所有设置都可自定义（空白，格式化的风格等）
+- 所有设置都可自定义（空白，格式化的风格等）<br>
 ####安装
 1. 下载插件包：[https://github.com/jdc0589/JsFormat](https://github.com/jdc0589/JsFormat)
 2. 点击菜单： `Preferences->Browse Packages`，把安装包解压到这里
@@ -15,9 +15,9 @@ JsFormat是JavaScript格式插件，使用[jsbeautifier](https://github.com/beau
 
 <br><br>
 ##BracketHighlighter
-版本：2.23.1
-首页：[github.com](https://github.com/facelessuser/BracketHighlighter)
-问题：[github.com](https://github.com/facelessuser/BracketHighlighter/issues)
+版本：2.23.1<br>
+首页：[github.com](https://github.com/facelessuser/BracketHighlighter)<br>
+问题：[github.com](https://github.com/facelessuser/BracketHighlighter/issues)<br>
 ####支架荧光笔
 匹配各种支架如：`[]`，`()`，`{}`，`""`，`''`，`#!xml <tag></tag>`，甚至是自定的支架
 ![BracketHighlighter示例](https://packagecontrol.io/readmes/img/63a4973b7f8d5ad3311ea9d54e92905cbf02822a.png)
